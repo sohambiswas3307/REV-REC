@@ -1,0 +1,49 @@
+{
+  "accuracy": 0.7976625273922571,
+  "macro_f1": 0.6415165136785306,
+  "report": {
+    "bank_server_error": {
+      "precision": 0.9674054758800521,
+      "recall": 0.9263420724094882,
+      "f1-score": 0.9464285714285714,
+      "support": 801.0
+    },
+    "expired_card": {
+      "precision": 0.7142857142857143,
+      "recall": 0.5952380952380952,
+      "f1-score": 0.6493506493506493,
+      "support": 168.0
+    },
+    "insufficient_funds": {
+      "precision": 0.6323529411764706,
+      "recall": 0.6231884057971014,
+      "f1-score": 0.6277372262773723,
+      "support": 207.0
+    },
+    "invalid_otp": {
+      "precision": 0.5911949685534591,
+      "recall": 0.7286821705426356,
+      "f1-score": 0.6527777777777778,
+      "support": 129.0
+    },
+    "risk_declined": {
+      "precision": 0.2727272727272727,
+      "recall": 0.421875,
+      "f1-score": 0.3312883435582822,
+      "support": 64.0
+    },
+    "accuracy": 0.7976625273922571,
+    "macro avg": {
+      "precision": 0.6355932745245937,
+      "recall": 0.6590651487974641,
+      "f1-score": 0.6415165136785306,
+      "support": 1369.0
+    },
+    "weighted avg": {
+      "precision": 0.8177556913085412,
+      "recall": 0.7976625273922571,
+      "f1-score": 0.8053561635980089,
+      "support": 1369.0
+    }
+  }
+}
